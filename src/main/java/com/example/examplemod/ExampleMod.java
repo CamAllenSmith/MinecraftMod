@@ -38,10 +38,10 @@ public class ExampleMod {
 
 
     public static final RegistryObject<Item> RUBY = ITEMS.register("ruby", () -> new Item(new Item.Properties()));
-    public static final RegistryObject<Block> RUBY_ORE = register("ruby_ore", new Block(AbstractBlock.Properties.of(Material.SPONGE)), block -> new BlockItem(block, new Item.Properties()));
+    public static final RegistryObject<Block> CAM = register("cam", new Block(AbstractBlock.Properties.of(Material.SPONGE)), block -> new BlockItem(block, new Item.Properties()));
+    public static final RegistryObject<Block> GRAEM = register("graem", new Block(AbstractBlock.Properties.of(Material.SPONGE)), block -> new BlockItem(block, new Item.Properties()));
 
     private static final Logger LOGGER = LogManager.getLogger();
-
 
     public ExampleMod() {
         IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();

@@ -1,4 +1,5 @@
 {
   "item.examplemod.ruby": "Ruby",
-  "block.examplemod.ruby_ore": "Ruby Ore"
+  "block.examplemod.graem": "Graemite",
+  "block.examplemod.cam": "Camethyst"
 }

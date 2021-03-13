@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ggg",
+    "ggg",
+    "ggg"
+  ],
+  "key": {
+    "g": {
+      "item": "examplemod:graem"
+    }
+  },
+  "result": {
+    "item": "examplemod:cam",
+    "count": 1
+  }
+}
